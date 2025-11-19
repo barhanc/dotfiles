@@ -5,7 +5,7 @@
     ],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
-    "rewrap.wrappingColumn": 100,
+    "rewrap.wrappingColumn": 80,
     "editor.fontLigatures": true,
     "editor.accessibilitySupport": "off",
     "editor.unicodeHighlight.allowedCharacters": {
@@ -33,6 +33,9 @@
         "--line-length",
         "119"
     ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
     // C/C++
     "files.associations": {
         "*.h": "c"
@@ -42,7 +45,7 @@
     // Git
     "git.enableSmartCommit": false,
     "git.autofetch": true,
-    "git.openRepositoryInParentFolders": "never",
+    "git.openRepositoryInParentFolders": "always",
     "git.confirmSync": true,
     // Colors and Window
     "window.newWindowDimensions": "offset",
@@ -69,4 +72,14 @@
     "remote.autoForwardPortsSource": "hybrid",
     "python.analysis.typeCheckingMode": "standard",
     "window.confirmBeforeClose": "keyboardOnly",
+    "workbench.startupEditor": "none",
+    "security.allowedUNCHosts": [
+        "nas-da.elmodis"
+    ],
+    "remote.SSH.remotePlatform": {
+        "ares.cyfronet.pl": "linux"
+    },
+    "geminicodeassist.inlineSuggestions.suggestionSpeed": "Fast",
+    "geminicodeassist.project": "industrial-hexagon-bkhfj",
+    "chat.disableAIFeatures": true,
 }
