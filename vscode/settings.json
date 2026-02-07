@@ -28,6 +28,7 @@
     "editor.minimap.autohide": "mouseover",
     "terminal.integrated.gpuAcceleration": "on",
     "extensions.ignoreRecommendations": true,
+    "files.autoSave": "onFocusChange",
     // Python
     "black-formatter.args": [
         "--line-length",
@@ -73,13 +74,27 @@
     "python.analysis.typeCheckingMode": "standard",
     "window.confirmBeforeClose": "keyboardOnly",
     "workbench.startupEditor": "none",
-    "security.allowedUNCHosts": [
-        "nas-da.elmodis"
-    ],
-    "remote.SSH.remotePlatform": {
-        "ares.cyfronet.pl": "linux"
-    },
     "geminicodeassist.inlineSuggestions.suggestionSpeed": "Fast",
     "geminicodeassist.project": "industrial-hexagon-bkhfj",
     "chat.disableAIFeatures": true,
+    "diffEditor.codeLens": true,
+    "geminicodeassist.displayInlineContextHint": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+    },
+    "githubPullRequests.createOnPublishBranch": "never",
+    "git.ignoreRebaseWarning": true,
+    "xml.server.preferBinary": true
 }
